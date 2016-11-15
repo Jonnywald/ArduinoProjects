@@ -25,7 +25,8 @@ void setup(){
 }
 
 void loop(){
-	Serial.println("||Temperatura e Luminosidade||")
+	Serial.println("||Temperatura e Luminosidade||");
 	Temperatura(LM35);
 	Luminosidade(LDR);
+  delay(1000);
 }
